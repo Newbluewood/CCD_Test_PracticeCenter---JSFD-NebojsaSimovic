@@ -5,6 +5,9 @@
 button {
     margin:0 5px;
 }
+#span-range,#span-arange {
+    font-size: 26px;
+}
 .task{
     display: flex;
     flex-direction: column;

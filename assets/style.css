@@ -5,8 +5,14 @@
 button {
     margin:0 5px;
 }
-#span-range,#span-arange {
+span{
     font-size: 26px;
+}
+#span-add {
+    font-size: 26px;
+}
+#span-arange {
+    font-size: 40px;
 }
 .task{
     display: flex;

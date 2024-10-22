@@ -1,0 +1,44 @@
+* {
+    font-family: "Candara";
+    font-size: 18px;
+}
+button {
+    margin:0 5px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 23vh;
+}
+textarea {
+    font-size: 22px;
+    color: rgb(61, 4, 4);
+}
+.togl {
+    padding: 0 5px 0 10px;
+    margin:15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(234, 225, 213);
+    
+}
+.hiden{
+    opacity:0;
+    display :none;
+}
+.visible{
+    opacity:1;
+}
+@media(hover:hover){
+    button:hover{
+        background-color: rgb(221, 233, 220);
+        cursor: pointer;
+    }
+    p:hover{
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

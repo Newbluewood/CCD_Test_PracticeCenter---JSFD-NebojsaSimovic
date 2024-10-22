@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST Practice Center CCD</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+    <span> 1. -- Korisnik unosi rečenicu koja se sastoji od slova i brojeva. Prebrojati samoglasnike koji se nalaze ispred cifara.</span>
+        <p id="zd1" data-isVisible="on" class="togl">---  hide -- Zadatak br 1:</p>
+        <div id="task1" class="task">
+            <textarea name="sentence" id="sentence-input" cols="60" rows="2" placeholder=" ...Unesi rečenicu"></textarea>
+            <button id ="btn1">Prebroj samoglasnike</button>
+            <p>Resultat :<span id = "span-result"> 0 </span></p> 
+            <span>U rečenici : <span id ="span-sentence"></span></span>
+        </div>
+    <hr>
+
+    <span>2. -- Brojeve sortirati rastuće po poslednjoj cifri. U koliko dva broja imaju jednake poslednje cifre, redosled između njih nije bitan.</span>
+        <p id="zd2" data-isVisible="on" class="togl"> --- hide -- Zadatak br 2: </p>
+        <div id="task2" class="task">
+            <div>
+                <input type="text" id="input-num" placeholder="..upisi broj, pa stini ENTER">
+                , ili =>
+                <input type="text" id="input-array" placeholder="..upisi brojeve razdvojene , ">
+                <button id="btn-add-range" >Dodaj niz</button>
+            </div>
+                <div>Niz 1 : <span id="span-add"></span></div>
+                <div><button id="reset-enry"> Obriši uneti niz </button><button id="dell-enry"> Obriši poslednji broj u nizu </button></div>
+                <button id="btn-arange"> Poređaj niz po poslednjoj cifri </button>
+                <div>Niz 2 : <span id="span-arange"></span></div>
+          
+        </div>
+    <hr>
+
+    <span>3. -- Za uneto n iscrtati figuru.</span>
+        <p id="zd3" data-isVisible="on" class="togl"> --- hide -- Zadatak br 3: </p>
+        <div id="task3" class="task">
+            <div>
+                <input type="text" id="input-col" placeholder="..upisi broj kolona">
+                <button id="btn-showModel">Prikazi Figuru</button>
+            </div>
+            <span>Model:</span>
+            <div id="div-show"></div>
+        </div>
+    
+
+
+<script type="module" src="./src/index.js"></script>
+</body>
+</html>
